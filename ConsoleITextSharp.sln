@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleITextSharp", "ConsoleITextSharp\ConsoleITextSharp.csproj", "{F165A355-9F67-4266-9D2B-00E78146812C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfFromWebAPI", "PdfFromWebAPI\PdfFromWebAPI.csproj", "{6681CCA0-B657-48A7-8865-D2B0BF0BDE5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F165A355-9F67-4266-9D2B-00E78146812C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F165A355-9F67-4266-9D2B-00E78146812C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F165A355-9F67-4266-9D2B-00E78146812C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F165A355-9F67-4266-9D2B-00E78146812C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6681CCA0-B657-48A7-8865-D2B0BF0BDE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6681CCA0-B657-48A7-8865-D2B0BF0BDE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6681CCA0-B657-48A7-8865-D2B0BF0BDE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6681CCA0-B657-48A7-8865-D2B0BF0BDE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC4A029-118B-4FEA-AA9C-76352120445D}
+	EndGlobalSection
+EndGlobal
