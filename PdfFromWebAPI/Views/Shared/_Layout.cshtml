@@ -22,8 +22,9 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
-                    <li><a href="http://localhost:49240/api/pdf" target="_blank" >View document</a></li>
-                    
+                    <li>@Html.ActionLink("Poster", "Poster", "Pdf", new { area = "" }, new { target = "_blank" })</li>
+                    <li><a href="http://localhost:49240/api/pdf" target="_blank">View document</a></li>
+
                 </ul>
             </div>
         </div>
